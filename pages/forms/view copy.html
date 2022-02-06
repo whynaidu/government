@@ -238,7 +238,7 @@
           </li>
 
               <li class="nav-item">
-            <a href="pages/forms/governmentform.html" class="nav-link">
+            <!-- <a href="pages/forms/governmentform.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Governmnet Form
@@ -246,8 +246,17 @@
      
                 <i class="right fas fa-angle-left"></i>
              
-            </a>
-   
+            </a> -->
+            <div class="btn-group nav-item">
+  <button type="button" class="btn "> <i class="nav-icon fas fa-th"></i> <a href="pages/forms/governmentform.html">Government form</a></button>
+  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown </span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+
+  </div>
+</div>
             
           </li>
 
@@ -389,42 +398,46 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-        <div class="row">
+        
+          <div class="row">
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h2 class=" text-center fs-1 fw-bold ">प्रपत्र - २.</h2>
-                <br>
-                <h5 class=" text-center ">अनुसूचित जाती / जमाती. अत्याचार  प्रतिबंधन अधिनियम १९८९ आणि नागरी हकक संरक्षण अधिनियम १९५५ अंतर्गत</h5>
+                <h3 class="card-title">दाखल झालेल्या गुन्हाप्रमाणे सहाव्य देण्यासाठी गुन्हेनिहाय अप्राप्त कागदपत्राची माहिती. माहे जुलै , २०२१ अखेर </h3>
 
-                  <br>
-                <p class=" text-center fw-bolder"> माहे जानेवारी ,२०२१ ते ऑगस्ट ,२०२१  मध्ये घडलेल्या गुन्हयांची माहिती</p>
-
-            
+                
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">
-                <table id="example2" class="table table-bordered table-hover">
+              <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th class="text-center">अ. क्र.</th>
-                    <th class="text-center">जिल्याचे नाव</th>
-                    <th class="text-center" colspan="8">गुन्हयांचे प्रकार </th>
+                    <th class="text-center"> अ. क्र.</th>
+                    <th class="text-center">नोट वही क्र. </th>
+                    <th class="text-center">	 दिनांक    </th>
+                    <th class="text-center"> पोलीस ठाणा </th>
+                    <th class="text-center" > उप वभागी चे नाव  </th>
+                    <th class="text-center" >गुन्हा न.   </th>
+                    <th class="text-center" >लावलेली कलमे  </th>
+                    <th class="text-center" >गुन्हयांचा प्रकार  </th>
+                    <th class="text-center" > फार्यादी नाव व पता </th>
+                    <th class="text-center" >पिडीत व्यक्तीचे नाव  </th>
+                    <th class="text-center" >प्रवर्ग आणि जात   </th>
+                    <th class="text-center" colspan="7">अत्यचारीत पिडीत व्यक्तीची नियमानुसार अवेशक कागदपत्रे  </th>
+               
                   </tr>
-                  <tr>
-                    <th class="text-center" colspan="2">&nbsp;</th>
-                    <th class="text-center">खून </th>
-                    <th class="text-center">बलात्कार</th>
-                    <th class="text-center">विनयभंग</th>
-                    <th class="text-center">मारहाण</th>
-                    <th class="text-center">शिवीगाळ</th>
-                    <th class="text-center">जाळपोळ</th>
-                    <th class="text-center">इतर </th>
-                    <th class="text-center">एकूण </th>
+                 <tr>
+                    <th class="text-center" colspan="11">&nbsp;</th>
+                    <th class="text-center">FIR </th>
+                    <th class="text-center">जातीचा दाखला </th>
+                    <th class="text-center">आधार कार्ड  </th>
+                    <th class="text-center">बँक महिती  </th>
+                    <th class="text-center">चार्ज शिट </th>
+                    <th class="text-center">वैद्यकीय अहवाल  </th>
+                    <th class="text-center">वैद्यकीय पुष्टी – ३९ अहवाल   </th>
            
                   </tr>
-              
-                  <tr>
+                          <tr>
                     <th class="text-center">१</th>
                     <th class="text-center">२</th>
                     <th class="text-center">३ </th>
@@ -435,40 +448,84 @@
                     <th class="text-center">८</th>
                     <th class="text-center">९ </th>
                     <th class="text-center">१० </th>
+                    <th class="text-center">११ </th>
+                    <th class="text-center">१२ </th>
+                    <th class="text-center">१३ </th>
+                    <th class="text-center">१४ </th>
+                    <th class="text-center">१५ </th>
+                    <th class="text-center">१६ </th>
+                    <th class="text-center">१७ </th>
+                    <th class="text-center">१८ </th>
            
                   </tr>
-              
-              
+                 <tr>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">विभाग – रायगड</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp; </th>
+                    <th class="text-center">&nbsp; </th>
+                    <th class="text-center">&nbsp; </th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th> 
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+                    <th class="text-center">&nbsp;</th>
+           
+                  </tr>
+         
                   </thead>
                   <tbody>
                   <tr>
                     <td class="text-center">१</td>
                     <td class="text-center">रायगड</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-<td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center"></td>
-                    <td class="text-center"></td>
+                    <td class="text-center">३३,३४,३४,३४,</td>
+                    <td class="text-center">५<td>
+                    <td class="text-center">२,३,४,५,६६</td>
+                    <td class="text-center">५</td>
+                    <td class="text-center">२,४,५,६,७,८९</td>
+                    <td class="text-center">६</td>
+                    <td class="text-center">२</td>
+                    <td class="text-center">१</td>
+                    <td class="text-center">२,३,४,५,६७</td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">नाही</td>
+                    <td class="text-center">६नाही</td>
+            
+                 
+                  </tr>
+                                <tr>
+                    <td class="text-center">१</td>
+                    <td class="text-center">रायगड</td>
+                    <td class="text-center">३३,३४,३४,३४,</td>
+                    <td class="text-center">५<td>
+                    <td class="text-center">२,३,४,५,६६</td>
+                    <td class="text-center">५</td>
+                    <td class="text-center">२,४,५,६,७,८९</td>
+                    <td class="text-center">६</td>
+                    <td class="text-center">२</td>
+                    <td class="text-center">१</td>
+                    <td class="text-center">२,३,४,५,६७</td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">आहे </td>
+                    <td class="text-center">नाही</td>
+                    <td class="text-center">६नाही</td>
             
                  
                   </tr>
                 
-                     <tr>
-                    <td class="text-center">२</td>
-                    <td class="text-center">नवी मुंबई</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-<td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center"></td>
-                    <td class="text-center"></td>
-                  
-            
-                 
-                  </tr>
+             
                      <tr>
                     <td class="text-center">&nbsp;</td>
                     <td class="text-center">एकूण</td>
@@ -495,6 +552,7 @@
             </div>
             <!-- /.card -->
           </div>
+        <!-- /.row -->
           <!-- /.col -->
         </div>
         <!-- /.row -->
@@ -558,5 +616,42 @@
     });
   });
 </script>
-</body>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
