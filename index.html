@@ -61,6 +61,20 @@
           </a>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fas fa-user-tie"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          
+            <div class="dropdown-divider"></div>
+            <a href="/government-master/pages/examples/login.html" class="dropdown-item">
+              <i class="fas fa-sign-out-alt mr-2"></i> Log out            
+            </a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+
       </ul>
     </nav>
     <!-- /.navbar -->
@@ -71,7 +85,7 @@
       <a href="index.html" class="brand-link">
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
           style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">Government Software</span>
       </a>
 
       <!-- Sidebar -->
@@ -82,7 +96,7 @@
             <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
+            <a href="#" class="d-block">Administrator</a>
           </div>
         </div>
 
@@ -94,16 +108,18 @@
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+
+
             <li class="nav-item menu-open">
-              <a href="#" class="nav-link active">
-                <!-- <i class="nav-icon fas fa-tachometer-alt"></i> -->
+              <a href="/government-master/index.html" class="nav-link active">
+                 <i class="nav-icon fas fa-tachometer-alt"></i> 
+               
                 <p>
-                  मुख्यपृष्ठ 
+                    मुख्यपृष्ठ 
                   <!-- <i class="right fas fa-angle-left"></i> -->
                 </p>
               </a>
-              <ul class="nav nav-treeview">
-              </ul>
+           
             </li>
 
             <li class="nav-item">
@@ -128,7 +144,7 @@
 
                 </li>
                 <li class="nav-item menu-open">
-                  <a href="/AdminLTE-3.1.0/pages/tables/data_copy.html" class="nav-link ">
+                  <a href="pages/tables/R5.html" class="nav-link ">
                     <!-- <i class="nav-icon fas fa-tachometer-alt"></i> -->
                     <p >
                       अहवाल
@@ -149,38 +165,43 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/pages/tables/R1.html" class="nav-link">
+                  <a href="pages/tables/R1.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>अहवाल १</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/pages/tables/R2.html" class="nav-link">
+                  <a href="pages/tables/R2.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>अहवाल २</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/pages/tables/R3.html" class="nav-link">
+                  <a href="pages/tables/R3.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>अहवाल ३</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/pages/tables/R4.html" class="nav-link">
+                  <a href="pages/tables/R4.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>अहवाल ४</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/pages/tables/R5.html" class="nav-link">
+                  <a href="pages/tables/R5.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>अहवाल ५</p>
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a href="pages/tables/allreport.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>संपूर्ण अहवाल</p>
+                  </a>
+                </li>
               </ul>
             </li>
-  
 
             <li class="nav-item">
               <a href="#" class="nav-link">
@@ -195,21 +216,20 @@
 
 
                 <li class="nav-item">
-                  <a href="/pages/tables/dataweb.html" class="nav-link">
+                  <a href="pages/forms/viewwebuser.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                       संकेतस्थल वापरकर्ता
-                      <i class="right fas fa-angle-left"></i>
+
                     </p>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a href="/pages/tables/datamobile.html" class="nav-link">
+                  <a href="pages/forms/viewmobileuser.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                       मोबाईल ॲप वापरकर्ता
-                      <i class="right fas fa-angle-left"></i>
                     </p>
                   </a>
                    
@@ -225,6 +245,8 @@
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
+
+
       </div>
       <!-- /.sidebar -->
     </aside>
@@ -241,7 +263,7 @@
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard v1</li>
+                <li class="breadcrumb-item active">Dashboard</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -263,7 +285,7 @@
                   <p>चोरी</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-bag"></i>
+              
                 </div>
 
               </div>
@@ -278,7 +300,7 @@
                   <p>तस्करी</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-stats-bars"></i>
+              
                 </div>
 
               </div>
@@ -293,7 +315,7 @@
                   <p>अपघात</p>
                 </div>
                 <div class="icon">
-                  <i class="ion road-accident"></i>
+               
                 </div>
 
               </div>
@@ -308,20 +330,26 @@
                   <p>खून</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-pie-graph"></i>
+                 
                 </div>
 
               </div>
             </div>
             <!-- ./col -->
           </div>
-          <!-- /.row -->
+          <!-- /.row -->     
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
           <!-- Main row -->
 
           <!-- /.row (main row) -->
         </div><!-- /.container-fluid -->
       </section>
       <!-- /.content -->
+
+
+
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
