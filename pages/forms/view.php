@@ -616,6 +616,7 @@
     });
   });
 </script>
+<<<<<<< HEAD
 <!-- Code injected by live-server -->
 <script type="text/javascript">
 	// <![CDATA[  <-- For SVG support
@@ -654,4 +655,7 @@
 	}
 	// ]]>
 </script></body>
+=======
+</body>
+>>>>>>> ded1d520b3099ed38a9e893ea3a93b86e8f275e0
 </html>
